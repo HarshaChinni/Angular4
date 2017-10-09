@@ -1,0 +1,22 @@
+<form action="#" name="myform" id="form" method="post" (submit)="sendProduct(productName, productDescription, productType)">
+  <fieldset id="fieldset">
+    <div class="field-group" style="padding-bottom : 15px;">
+
+      <input type="text" name="productName" size="40" placeholder="Enter the product name" [(ngModel)]="productName" />
+
+    </div>
+
+    <div class="field-group" style="padding-bottom : 15px">
+
+      <input type="text" name="description" size="140" placeholder="Decribe the product" [(ngModel)]="productDescription" />
+    </div>
+
+    <div class="field-group" style="padding-bottom : 15px;">
+
+      <input type="text" name="productType" size="40" placeholder="Enter the Product type" required [(ngModel)]="productType" />
+      <!-- <p>{{productType}}</p> -->
+    </div>
+
+    <button type="submit" class="btn btn-success"> Add Product</button>
+  </fieldset>
+</form>

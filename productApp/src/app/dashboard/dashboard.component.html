@@ -1,0 +1,45 @@
+<div id="wrapper">
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <nav>
+      <ul class="sidebar-nav nav">
+        <li class="sidebar-brand">
+          <a routerLink='/'><i class="fa fa-home solo">  Home</i></a>
+        </li>
+        <li>
+          <a routerLink="/createProject" data-scroll><i class="fa fa-plus-square">  Create Project</i> </a>
+        </li>
+        <li>
+          <a href="#" data-scroll><i class="fa fa-edit">  About Us</i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div id = 'ngTable'>
+   <i class = 'fa fa-search'></i> <input #gb type="text" placeholder="Global search">
+<p-dataTable [value]="array" sortMode="single" [globalFilter]="gb" scrollable="true" scrollHeight="450px"
+  [(selection)]="selectedItems" columnResizeMode="expand" (onRowSelect)="rowSelected($event)" [editable]="true" [paginator]="true" rows="10" [responsive]="true">
+  
+  <p-header [style]="{'width': '100%'}">
+    <div class="ui-helper-clearfix" >
+      Product Table
+    </div>
+  </p-header>
+
+  <p-column [style]="{'width':'38px'}" selectionMode="multiple"  filterMatchMode="contains" ></p-column>
+
+  <p-column field="productName" header="Product Name" [sortable]="true" [editable]="true"  filterMatchMode="contains" [style]="{'width': '150px'}" > </p-column>
+  <p-column field="productType" header="Product Type" [sortable]="true" [editable]="true" filterMatchMode="contains" [style]="{'width': '150px'}"></p-column>
+  <p-column field="productDescription" header="Product Description" [editable]="true" filterMatchMode="contains" [sortable]="false" [style]="{'width': '200px'}"></p-column>
+  <p-column field="action" header="Actions" [style]="{'width': '100px', 'align-content' : 'center'}">
+      <ng-template let-product="rowData"  pTemplate="body">
+          <i class="fa fa-edit" (click)="update(product)"></i> 
+
+          <i class="fa fa-trash-o" (click)="delete(product)"></i>
+      </ng-template>
+  </p-column>
+</p-dataTable>
+
+</div>

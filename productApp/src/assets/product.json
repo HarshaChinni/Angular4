@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Oneplus5",
+      "productDescription": "The industry-leading Qualcomm® Snapdragon™ 835 processor powers through demanding apps and games – and it's incredibly power efficient.",
+      "productType": "Mobile"
+    },
+    {
+      "id": 2,
+      "productName": "Royal Enfield",
+      "productDescription": "One of the best bikes in the world",
+      "productType": "Bike"
+    },
+    {
+      "id": 3,
+      "productName": "Audi 8",
+      "productDescription": "need 1M$",
+      "productType": "Car"
+    },
+    {
+      "productName": "sd test",
+      "productDescription": "fsdsfsf",
+      "productType": "sdfsdfs",
+      "id": 5
+    },
+    {
+      "productName": "test",
+      "productDescription": "sds",
+      "productType": "dsdsd",
+      "id": 8
+    },
+    {
+      "productName": "testing",
+      "productDescription": "fas",
+      "productType": "asf",
+      "id": 12
+    },
+    {
+      "productName": "put method is being called",
+      "productDescription": "bf",
+      "productType": "http",
+      "id": 13
+    },
+    {
+      "productName": "gh",
+      "productDescription": "j",
+      "productType": "jg",
+      "id": 14
+    },
+    {
+      "productName": "VC",
+      "productDescription": "VSD",
+      "productType": "VDS",
+      "id": 16
+    },
+    {
+      "productName": "BGF",
+      "productDescription": "F",
+      "productType": "JGF",
+      "id": 19
+    },
+    {
+      "productName": "FGJFGJM",
+      "productDescription": "FM",
+      "productType": "FM",
+      "id": 20
+    },
+    {
+      "productName": "xyz",
+      "productDescription": "sds",
+      "productType": "faqf",
+      "id": 21
+    },
+    {
+      "productName": "das",
+      "productDescription": "fds",
+      "productType": "gdsg",
+      "id": 22
+    },
+    {
+      "productName": "DSVG",
+      "productDescription": "FXC",
+      "productType": "XV",
+      "id": 23
+    },
+    {
+      "productName": "zxccz",
+      "productDescription": "czsx",
+      "productType": "sacc",
+      "id": 25
+    },
+    {
+      "productName": "mock",
+      "productDescription": "mock product",
+      "productType": "mock",
+      "id": 26
+    },
+    {
+      "productName": "Dairy Milk",
+      "productDescription": "Tastes sweet",
+      "productType": "Choclate",
+      "id": 27
+    }
+  ],
+  "productType": [
+    "bike",
+    "mobile",
+    "car"
+  ]
+}

@@ -1,0 +1,120 @@
+/* Add application styles & imports to this file! */
+
+section{
+    font-family: 'Fira Sans', sans-serif;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+}
+article {
+  border-style: solid;
+  border-width: medium;
+  background-color: #CCFFFF;
+  width: 520px;
+}
+body {
+  /* background-image: url("../images/img1.jpg"); */
+}
+
+input {
+  /* display:; */
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 5px;
+}
+section h2 {
+    border-bottom: 1px solid #ccc;
+    margin-left: 35px;
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#signup.aui-page-panel {
+  background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 50px auto 0 auto;
+    min-height: 420px;
+    overflow: auto;
+    max-width: 645px; 
+    font-size: 14px;
+}
+#signin.aui-page-panel {
+  background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 50px auto 0 auto;
+    min-height: 350px;
+    overflow: auto;
+    max-width: 522px;
+    font-size: 14px;
+}
+ #fieldset {
+    border: 0;
+    clear: both;
+    margin-left: 137px;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.label{
+  padding:5px 10px 0px 10px;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* to make it shadow block */
+/* input{
+  box-shadow: 1px 0px 0px #888888; 
+  border-top-color: #FFF
+} */
+
+input{
+    border: none;
+     background: transparent; 
+    box-shadow: 0px 1px 0px #888888; 
+    }
+#username,#password:focus{
+    outline: none;
+}
